@@ -11,4 +11,7 @@ urlpatterns = [
     
     # Path for registration
     path(route='register', view=views.registration, name='registration'),
+    
+    # Path for getting cars
+    path(route='get_cars', view=views.get_cars, name='getcars'),
 ]
